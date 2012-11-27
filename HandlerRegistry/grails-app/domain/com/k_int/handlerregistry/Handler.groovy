@@ -1,7 +1,6 @@
 package com.k_int.handlerregistry
 
 class Handler {
-
   String name
   String[] preconditions
 

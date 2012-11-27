@@ -1,7 +1,6 @@
 package com.k_int.handlerregistry
 
 class HandlerRevision {
-
   Handler owner
   long revision
   String handlerText

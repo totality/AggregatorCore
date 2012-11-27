@@ -110,3 +110,9 @@ security {
     }
   }
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'spring.security.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'spring.security.UserRole'
+grails.plugins.springsecurity.authority.className = 'spring.security.Role'
+//grails.plugins.springsecurity.ui.encodePassword = false

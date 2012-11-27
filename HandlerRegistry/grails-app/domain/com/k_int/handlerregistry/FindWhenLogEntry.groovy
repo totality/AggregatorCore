@@ -1,7 +1,6 @@
 package com.k_int.handlerregistry
 
 class FindWhenLogEntry {
-
   Date ts = new java.util.Date()
   String remoteUserId
   String remoteSystemId
